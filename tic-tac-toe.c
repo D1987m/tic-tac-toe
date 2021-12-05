@@ -628,8 +628,6 @@ void InspectionDiag2Com(int **StopGame,int jcol, int com, int mas[][n])
   	 InspectionVerCom( &StopGame,3,com,mas);
   	 InspectionDiag1Com(&StopGame,0,com,mas);
   	 InspectionDiag1Com(&StopGame,1,com,mas);
-  	 InspectionDiag1Com(&StopGame,0,com,mas);
-  	 InspectionDiag1Com(&StopGame,0,com,mas);
   	 InspectionDiag2Com(&StopGame,0,com,mas);
   	 InspectionDiag2Com(&StopGame,1,com,mas);
     //Проверка на выигрыш игрока
